@@ -6,7 +6,9 @@
 <ul>
 <?php
 	foreach($php_files as $file){
-		echo "<li><a href='$file'>$file</a>.</li>";
+		if ($file != 'index.php'){
+			echo "<li><a href='$file'>$file</a>.</li>";
+		}
 	}
 	foreach($dirs as $dir){
 		if ($dir != "Image"){
