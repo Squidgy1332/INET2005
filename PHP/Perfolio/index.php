@@ -10,6 +10,7 @@
     <h1> HOME PAGE </h1>
     <p> This is the home page, here are the links to the other pages </p>
     <?php
+        $activePage = "Home";
         include 'Sections/nav.php';
     ?>
     <section>

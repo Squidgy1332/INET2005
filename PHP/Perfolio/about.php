@@ -8,9 +8,9 @@
 </head>
 <body>
     <h1> About PAGE </h1>
-
     <p> This is the home page, here are the links to the other pages </p>
     <?php
+        $activePage = "about";
         include 'Sections/nav.php';
     ?>
 </body>
