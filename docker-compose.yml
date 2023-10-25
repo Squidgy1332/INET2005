@@ -1,29 +1,47 @@
 version: '3'
 services:
-  # PHP Service
-  php:
-    image: php:7.4-apache
-    container_name: php
+  # MariaDB Service
+  db:
+    container_name: db
+    image: mariadb:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: super_secret123?
+      MYSQL_DATABASE: courses
+      MYSQL_USER: user
+      MYSQL_PASSWORD: secret_pwd123?
     ports:
-      - "80:80"
+      - "9906:3306"
     volumes:
-      - ./PHP:/var/www/html # Replace './php-app' with your PHP application code location
+      - ./mysql-data:/var/lib/mysql
     networks:
       - php-mariadb-network
 
-  # MariaDB Service
-  mariadb:
-    image: mariadb:latest
-    container_name: mariadb
-    environment:
-      MYSQL_ROOT_PASSWORD: super_secret123?
-      MYSQL_DATABASE: Liams
-      MYSQL_USER: w0469100
-      MYSQL_PASSWORD: secret_pwd123?
-    ports:
-      - "8089:3306"
+  # PHP Service
+  php:
+    # image: php:7.4-apache
+    # image: php-byme
+    container_name: php-apache
+    build:
+      context: .
+      dockerfile: Dockerfile
+    depends_on:
+      - db
     volumes:
-      - ./mysql-data:/var/lib/mysql # Replace './mysql-data' with your MariaDB data location
+      - ./app/src:/var/www/html
+    ports:
+      - "8112:80"
+    networks:
+      - php-mariadb-network
+
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    ports:
+      - '8113:80'
+    environment:
+      PMA_HOST: db
+    depends_on:
+      - db
     networks:
       - php-mariadb-network
 
