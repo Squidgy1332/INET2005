@@ -27,7 +27,7 @@ services:
     depends_on:
       - db
     volumes:
-      - ./app/src:/var/www/html
+      - ./PHP:/var/www/html
     ports:
       - "8112:80"
     networks:
