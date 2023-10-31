@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Movies>
+  <Movie>
+    <Title>Pink Flamingos</Title>
+    <Picture>https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTC3GRUQPZkD6q-1kL1U_ZtXEtiMo-xk6GPBdCUUGQMt0cQrVXt</Picture>
+    <Director>Jhon Waters</Director>
+    <MainActor>Divine</MainActor>
+    <Link>https://www.imdb.com/title/tt0069089/</Link>
+    <Year>1972</Year>
+    <Genre>Comedy/Crime</Genre>
+  </Movie>
+  <Movie>
+    <Title>The Blob</Title>
+    <Picture>https://m.media-amazon.com/images/M/MV5BOWQ1ODYxYjItMzg0OS00YjM3LWFjNTAtOTQxODUxMDdiYTkxXkEyXkFqcGdeQXVyMTUzMDUzNTI3._V1_.jpg</Picture>
+    <Director>Chuck Russell</Director>
+    <MainActor>Shawnee Smith</MainActor>
+    <Link>https://www.imdb.com/title/tt0094761/?ref_=tt_mv_close</Link>
+    <Year>1988</Year>
+    <Genre>Horror Sci-Fi Thriller</Genre>
+  </Movie>
+  <Movie>
+    <Title>Suburban Sasquatch</Title>
+    <Picture>https://www.voicesfromthebalcony.com/wp-content/uploads/2022/08/SUBURBAN-SASQUATCH-6.jpg</Picture>
+    <Director>Dave Wascavage</Director>
+    <MainActor>Sue Lynn Sanchez</MainActor>
+    <Link>https://www.imdb.com/title/tt0481297/</Link>
+    <Year>2004</Year>
+    <Genre>Action Comedy Adventure</Genre>
+  </Movie>
+  <Movie>
+    <Title>Freddy Got Fingered</Title>
+    <Picture>https://m.media-amazon.com/images/M/MV5BN2Q5YjBkZGEtMmJkZC00NzFkLTliZTYtNmQ2OTk1ODdiODdiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg</Picture>
+    <Director>Tom Green</Director>
+    <MainActor>Tom Green</MainActor>
+    <Link>https://www.imdb.com/title/tt0240515/</Link>
+    <Year>2001</Year>
+    <Genre>Comedy</Genre>
+  </Movie>
+  <Movie>
+    <Title>The Room</Title>
+    <Picture>https://m.media-amazon.com/images/M/MV5BN2IwYzc4MjEtMzJlMS00MDJlLTkzNDAtN2E4NGNkZjg0MDgxXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_FMjpg_UX1000_.jpg</Picture>
+    <Director>Tommy Wiseau</Director>
+    <MainActor>Tommy Wiseau</MainActor>
+    <Link>https://www.imdb.com/title/tt0368226/</Link>
+    <Year>2003</Year>
+    <Genre>Drama</Genre>
+  </Movie>
+  <Movie>
+    <Title>Disaster Movie</Title>
+    <Picture>https://upload.wikimedia.org/wikipedia/en/a/af/Disaster_movie.jpg</Picture>
+    <Director>Jason Friedberg</Director>
+    <MainActor>Matt Lanter</MainActor>
+    <Link>https://www.imdb.com/title/tt1213644/</Link>
+    <Year>2008</Year>
+    <Genre>Comedy</Genre>
+  </Movie>
+  <Movie>
+    <Title>Birdemic: Shock and Terror</Title>
+    <Picture>https://assets.americancinematheque.com/wp-content/uploads/2022/09/11204223/Birdemic_Hero.jpg</Picture>
+    <Director>James Nguyen</Director>
+    <MainActor>Alan Bagh</MainActor>
+    <Link>https://www.imdb.com/title/tt1316037/</Link>
+    <Year>2010</Year>
+    <Genre>Horror</Genre>
+  </Movie>
+  <Movie>
+    <Title>Superbabies: Baby Geniuses 2</Title>
+    <Picture>https://m.media-amazon.com/images/M/MV5BNjY4NjM3MjQ2OF5BMl5BanBnXkFtZTcwOTc3NzYyMQ@@._V1_FMjpg_UX1000_.jpg</Picture>
+    <Director>Bob Clark</Director>
+    <MainActor>Jon Voight</MainActor>
+    <Link>https://www.imdb.com/title/tt0270846/</Link>
+    <Year>2004</Year>
+    <Genre>Comedy</Genre>
+  </Movie>
+  <Movie>
+    <Title>Catwoman</Title>
+    <Picture>https://m.media-amazon.com/images/M/MV5BMjA4MzM0NDAzOF5BMl5BanBnXkFtZTcwMDY3MDYyMQ@@._V1_FMjpg_UX1000_.jpg</Picture>
+    <Director>Pitof</Director>
+    <MainActor>Halle Berry</MainActor>
+    <Link>https://www.imdb.com/title/tt0327554/</Link>
+    <Year>2004</Year>
+    <Genre>Action</Genre>
+  </Movie>
+  <Movie>
+    <Title>Glitter</Title>
+    <Picture>https://m.media-amazon.com/images/M/MV5BYWYzN2I5NWItYTdmNS00ZWNmLWI0MWItMTJhN2FjMjY3MDQ1XkEyXkFqcGdeQXVyMTQxN73MzNDI@._V1_.jpg</Picture>
+    <Director>Vondie Curtis-Hall</Director>
+    <MainActor>Mariah Carey</MainActor>
+    <Link>https://www.imdb.com/title/tt0120834/</Link>
+    <Year>2001</Year>
+    <Genre>Drama Music</Genre>
+  </Movie>
+</Movies>
