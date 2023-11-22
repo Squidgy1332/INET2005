@@ -76,6 +76,7 @@
     <button type="submit" name="Button">Submit</button>
 </form>
 <?php
+    include("Connect/DBCon.php");
     if (isset($_POST['Button'])){
 
         $Title = $_POST['Title'];
@@ -112,22 +113,6 @@
         }else{
             UploadData($Title,$FirstName,$LastName,$Street,$City,$Province,$PostalCode,$Country,$Phone,$Email);
         }
-    }
-    function ConnectDB(){
-        $servername = "localhost";
-        $username = "root";
-        $password = "";
-        $dbname = "assigment3";
-        
-        // Create connection
-        $conn = new mysqli($servername, $username, $password,$dbname);
-        
-        // Check connection
-        if ($conn->connect_error) {
-          die("Connection failed: " . $conn->connect_error);
-        }
-
-        return $conn;
     }
     function UploadData($Title,$FirstName,$LastName,$Street,$City,$Province,$PostalCode,$Country,$Phone,$Email){
 
