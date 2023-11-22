@@ -1,0 +1,14 @@
+
+this was my first time doing a game jam and it was set to be on the weekend were we had 48 hours to make a game. 
+I was able to get a team of three for the game jam, and with this team we were able to work to gether and make 
+a completed game by the times end. the game had a chalenge "You are the projectile" 
+this inspired are game Not pong inspired by pong were insted of controling the pattles you control the ball.
+
+this game jam gave me a lot of experince in what its like to work in a fast pace and stress full invirment with a team, 
+aswell as lern a lot about Unity and C# as that is the softwaer and programs we used to make are game.
+at the end of the 48 hours we were given the results were unfortunatly we did not win however we were also 
+givin the opertunitie to talk to a persion in the indistry. the persion although I forget there name worked in
+the media sector for CD Project Red, this is the company that made the populer game CyberPunk 2077. 
+we were able to ask him quistions about the industry as well as lissin to advice he had for us.
+I think that overall this was a very good experince for me both for networking as Game jams are a populer 
+way for companys to find new developers, but also a way for me to lern and improve my skills in making games. 
