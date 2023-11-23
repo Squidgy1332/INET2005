@@ -2,16 +2,18 @@
 <html lang="en">
 	
 <head>
-	<meta charset="utf-8">
-	<title>Liam Website</title>
-	<link href="CSS/reset.css" rel="stylesheet" />
+	<?php
+	$Title =  "<h1> Skills <br /> Education </h1>";
+	include "Sections/Head.php";
+	?>
 	<link href="CSS/stylespersonalweb.css" rel="stylesheet"/>
 </head>
 
 <body>
-<header>
-	<h1> Skills <br /> Education </h1>
-</header>
+<?php
+	include "Sections/Header.php";
+	include "Sections/nav.php";
+?>
 <section>
 	<h2> Skills </h2>
 	<ul>
@@ -33,9 +35,9 @@
 		<li> <b> participated in the September 2022 Bad Mama Jama Game Jam, where I Worked in fast pace virtual environment with a team of three. We were able to produce an almost working game within 42 hours </b></li>
 	</ul>
 </section>
-<footer>
-
-</footer>
+<?php
+	include "Sections/Footer.php";
+?>
 
 </body>
 </html>

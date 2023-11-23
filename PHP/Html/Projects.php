@@ -2,22 +2,18 @@
 <html lang="en">
 	
 <head>
-	<meta charset="utf-8">
-	<title>Liam Website</title>
-	<link href="CSS/reset.css" rel="stylesheet" />
+	<?php
+	$Title =  "Projects";
+	include "Sections/Head.php";
+	?>
 	<link href="CSS/stylespersonalweb.css" rel="stylesheet"/>
 </head>
 
 <body>
-<header>
-	<h1> My <br /> Projects </h1>
-</header>
-<nav>
-	<a href="Home.html"><b>Home</b></a>
-	<a href="Projects.html"><b>Projects</b></a>
-	<a href="Skills_Education.html"><b>Skills&Education</b></a>
-	<a href="Resume.html"><b>Resume</b></a>
-</nav>
+<?php
+	include "Sections/Header.php";
+	include "Sections/nav.php";
+?>
 <article>
 	<section>
 		<h2> Not Pong </h2>
@@ -47,9 +43,9 @@
 		</b></p>
 	</section>
 </article>
-<footer>
-	
-</footer>
+<?php
+	include "Sections/Footer.php";
+?>
 
 </body>
 </html>
