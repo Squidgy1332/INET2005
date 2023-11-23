@@ -19,8 +19,7 @@
 		<h2> About Me </h2>
 		<p><b> 
 			Hi, my name in Liam Morton. I live in Nova Scotia Canada. 
-			I am currently finishing up my first year in the IT Programming course located at COGS NSCC.  
-			I am interested game design and graphic Design, as will as playing video games myself.
+			I am currently in my second year in the IT Programming course located at COGS NSCC.  
 		</b></p> 
 	</section>
 	<img id="me" src="CSS/img/picme.jpg" alt="picture of me" />

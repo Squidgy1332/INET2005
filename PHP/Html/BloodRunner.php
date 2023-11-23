@@ -3,10 +3,10 @@
 	
 <head>
 	<?php
-	$Title =  "Projects";
+	$Title =  "Blood Runner";
 	include "Sections/Head.php";
 	?>
-	<link href="CSS/stylespersonalweb.css" rel="stylesheet"/>
+	<link href="CSS/Project.css" rel="stylesheet"/>
 </head>
 
 <body>
@@ -15,15 +15,7 @@
 	include "Sections/nav.php";
 ?>
 <article>
-	<section>
-		<h2> Not Pong </h2>
-		<p><b>
-			This is my groups game that we made for the Bad Mama Jama Game jam. We had only 42 hours to make a working game. 
-			In this game you play as the ball in a futuristic game of pong. Will you bounce between the two pedals you must 
-			try and collect the flying coins will also avoiding the red spike balls.
-			PLAY <a href="https://liammorton-akasquidgy.itch.io/notpong"> Not Pong </a>
-		</b></p>
-	</section>
+	<img id="me" src="CSS/img/BloodRunner.jpg" alt="picture of me" />
 	<section> 
 		<h2> Blood Runner </h2>
 		<p><b>
@@ -37,10 +29,14 @@
 		</b></p>
 	</section>
 	<section>
-		<h2> GitHub </h2>
-		<p><b>
-			My GitHub has links to many of my school and test projects. Please look at some of my work as it is a reflection on my skills and abilities. My link is <a href="https://github.com/w0469100?tab=repositories"> here </a>
-		</b></p>
+		<h2> Skills </h2>
+		<ul>
+			<li> <b> C# </b></li>
+			<li> <b> Unity </b></li>
+			<li> <b> Animation </b></li>
+			<li> <b> Game design/development </b></li>
+			<li> <b> Pixel Art </b></li>
+		</ul>
 	</section>
 </article>
 <?php

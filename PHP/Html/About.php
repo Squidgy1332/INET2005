@@ -7,6 +7,7 @@
 	include "Sections/Head.php";
 	?>
 	<link href="CSS/stylespersonalweb.css" rel="stylesheet"/>
+	
 </head>
 
 <body>
@@ -16,7 +17,7 @@
 ?>
 <article>
 	<section id = "goals">
-		<h2> Cereer Goals </h2>
+		<h2> Career Goals </h2>
 		<p><b>
 			I plan on building a courier in game development and digital design. Making videogames is a hobby if mine and I have recently started 
 			to develop my first Indie game titled Blood Runner. I see this as my first step in become a successful developer. 
@@ -32,7 +33,6 @@
 			I have also learned that having good social skills and teamwork skills is important to the success of a project. 
 		</b></p>
 	</section>
-	<img id="me" src="CSS/img/picme.jpg" alt="picture of me" />
 </article>
 <?php
 	include "Sections/Footer.php";
