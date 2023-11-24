@@ -1,3 +1,8 @@
+<?php
+    session_start();
+	if($_SESSION['login']){
+	
+?>
 <!DOCTYPE html>
 <html lang="en">
 	
@@ -23,3 +28,6 @@
 
 </body>
 </html>
+<?php }else{
+	echo "<p> cant access page not logedin</p>";
+	}?>

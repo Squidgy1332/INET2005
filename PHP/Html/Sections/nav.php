@@ -13,4 +13,12 @@
     <a href="Projects.php">Projects</a>
     <a href="DemoWork.php"><b>DemoWork</b></a>
     <a href="Contact.php"><b>Contact</b></a>
+	
+	<?php
+		if($_SESSION['login']){
+			echo "<a href='Resume.php'><b>Resume</b></a>";
+		}else{
+			echo "<a href='Login.php'><b>Login</b></a>";
+		}
+	?>
 </div>
