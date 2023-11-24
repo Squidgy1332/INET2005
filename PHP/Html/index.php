@@ -3,7 +3,7 @@
 	
 <head>
 	<?php
-	$Title =  "Hi I'm <br /> Liam Morton";
+	$Title = "Hi I'm <br /> Liam Morton";
 	include "Sections/Head.php";
 	?>
 	<link href="CSS/stylespersonalweb.css" rel="stylesheet"/>
