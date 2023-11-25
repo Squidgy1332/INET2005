@@ -4,7 +4,7 @@
 	
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en">	
 	
 <head>
 	<?php
@@ -20,7 +20,7 @@
 	include "Sections/nav.php";
 ?>
 
-<img src="CSS/img/Resumepic.png" alt="my Resume"/>
+<img src="CSS/img/Resume.png" alt="my Resume"/>
 
 <?php
 	include "Sections/Footer.php";

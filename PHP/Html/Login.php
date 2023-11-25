@@ -17,15 +17,21 @@
 	include "Sections/Header.php";
 	include "Sections/nav.php";
 ?>
+<?php if($_SESSION['login']){
+    echo "<p>You have logged in</p>";
+    echo '<form method="post">
+    <button type="submit" name="logout">Logout</button>
+</form>';
+    
+}else{?>
 <p>Login to see my Resume Page</p>
 <form method="post">
     <label class="pass" for="pass">Password:</label>
     <input class="pass" type="text" id="pass" name="pass" required>
 
-    <button type="submit" name="button">Submit</button>
+    <button type="submit" name="button">Login</button>
 </form>
-
-<?php
+<?php }
     if(isset($_POST['button'])){
         $pass = $_POST['pass'];
         if($pass == "Test"){
@@ -34,6 +40,10 @@
         }else{
             echo "<p>Sorry, Wrong password.</p>";
         }
+    }
+
+    if(isset($_POST['logout'])){
+        $_SESSION['login'] = null;
     }
 ?>
 <?php
