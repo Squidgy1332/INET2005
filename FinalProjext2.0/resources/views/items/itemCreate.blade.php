@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<form  method="post" action="{{ url('items/itemStore') }}" enctype="multipart/form-data">
+    @csrf
+    @method('POST')
+    <label for="item_name">Item Name:</label>
+    <input type="text" name="item_name" required>
+    <br>
+    <label for="item_Price">Item Price:</label>
+    <input type="text" name="item_Price" required>
+    <br>
+    <label for="item_quantity">Item Quantity:</label>
+    <input type="text" name="item_quantity" required>
+    <br>
+    <label for="item_SKU">Item SKU:</label>
+    <input type="text" name="item_SKU" required>
+    <br>
+    <label for="item_description">Item Description:</label>
+    <textarea type="text" name="item_description" required></textarea>
+    <br>
+    <label for="item_CID">Category ID:</label>
+    <input type="text" name="item_CID" require>
+    <br>
+    <label for="item_img">Item Image:</label>
+    <input type="file" name="item_img" require>
+    <br>
+    <input type="submit" value="Create Item">
+</form>
+@if($errors->any())
+    <div class="alert alert-danger">
+        <ul>
+            @foreach ($errors->all() as $error)
+                <li>{{ $error }}</li>
+            @endforeach
+        </ul>
+    </div>
+@endif
