@@ -1,0 +1,13 @@
+#EISLogo {
+	width: 119px;
+	height: 119px;
+	background: #00000000;
+}
+
+nav {
+	padding: 8px 8px 8px 8px;
+	background: #B70F0A;
+	border-color: #000000;
+	border-width: 1px;
+	border-style: solid;
+}
