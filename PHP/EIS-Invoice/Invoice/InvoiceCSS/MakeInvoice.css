@@ -38,6 +38,15 @@ label, p {
 	display: block;
 }
 
+#personAst {
+	padding-left: 300px;
+}
+
+label[for$="*"]::after {
+    content: "*";
+    color: red;
+}
+
 .prices{
 	text-align: right;
 }
@@ -77,4 +86,86 @@ td {
 
 .butn{
 	margin-left: 70px;
+}
+
+#MakeInvoiceTitle {
+	padding-top: 50px;
+	color: #000000;
+	font-family: "Helvetica";
+	font-weight: 400;
+	font-size: 36px;
+	text-align: center;
+}
+
+#NameInfo {
+	padding-top: 0px;
+}
+
+#BusinessInfo{
+	padding-top: 50px;
+}
+
+#ChangePersonButn{
+	float: right;
+	margin-right: 50px;
+}
+
+.personInfo {
+	display: none;
+}
+
+/* Model Styles */
+
+#AddPerson {
+	padding-right: 30%;
+}
+
+#ModalSize {
+	align-self: center;
+	width: 1000px;
+	height: 910px;
+	background: #FFFFFF;
+	border-color: #000000;
+	border-width: 1px;
+	border-style: solid;
+}
+
+#ModalBody input{
+	width: 200px;
+	height: 42px;
+	padding: 4px 8px 4px 8px;
+}
+
+#ModalHeadText {
+	padding-left: 60px;
+}
+
+#ModalBody #InfoSec td{
+	height: 0px;
+	padding-top: 0px;
+}
+
+#CloseBtn{
+	float: left;
+}
+
+#AddBtn{
+	float: right;
+}
+
+#RegBusLabel {
+	font-size: 15px;
+	padding-right: 70px;
+	padding-top: 10px;
+	float: right;
+}
+
+#ModalBody #IsRegisteredT {
+	width: 15px;
+	float: left;
+	padding: 1px;
+}
+
+#ModalBody #InfoSec #BusinessCol {
+	padding-top: 37px;
 }

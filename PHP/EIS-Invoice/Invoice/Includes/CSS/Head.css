@@ -7,7 +7,15 @@
 nav {
 	padding: 8px 8px 8px 8px;
 	background: #B70F0A;
-	border-color: #000000;
-	border-width: 1px;
-	border-style: solid;
+	color: #FFFFFF;
+}
+
+nav a {
+	width: 99px;
+	height: 45px;
+	font-family: "Helvetica";
+	font-weight: 400;
+	font-size: 36px;
+	text-align: left;
+	padding-left: 30px;
 }
